@@ -1,0 +1,15 @@
+name: SQProtect
+version: 3.0fix
+description: Anti Fake Die
+main: com.windx.protect.KillProtect
+author: FZH
+commands:
+  kill:
+    description: Kill a player or all entities in the world
+    usage: /kill [@a|@e|*|***]
+  suicide:
+    description: Commit suicide
+    usage: /suicide  
+listeners:
+  - com.windx.protect.NameProtect
+  - com.windx.protect.VoidProtect
